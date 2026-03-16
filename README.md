@@ -15,4 +15,8 @@ Mycket av att säkerställa containers är enkla saker som igentligen inte tar s
 SBOM är lika viktigt som att ha innehållsförteckning på ens mat, man måste veta vad som är i för att kunna ta bra beslut. Man måste veta i en program vart alla komponenter kommer ifrån och ifall dom behöver uppdateras. Vid en incident kan man inte bara säga att man inte kollade så noga på vad som var i en program.
 Gatekeeper funkar som en portvakt ifall man för någon anledning glömt att fixa små detaljer i sina deployments så att det inte hamnar i produktion.
 
-(screenshots/trivyscan-before.png)
+Screenshots:\
+[Tricy scan before hardening](screenshots/trivyscan-before.png) \
+[Trivy scan after hardening](screenshots/trivyscan-after.png) \
+[Gatekeeper denying a pod](screenshots/gatekeeper-deny.png) \
+[Gatekeeper allowing a pod](screenshots/gatekeeper-pass.png) 
